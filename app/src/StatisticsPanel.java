@@ -18,24 +18,18 @@ class StatisticsPanel extends JPanel
 		setLayout(new BorderLayout());		
 		add(statistics, BorderLayout.CENTER);
 		statistics.setEditable(false);
-		statistics.setText("\n                    Statystyki\t\n\n\n"+
-						   " HP: "+HP+"/100\t\n\n"+
-						   " Ekwipunek: \t      "+q1+"\n\n"+
-						   " Eliksiry ¿ycia: \t      "+q2+"\n"+
-						   " Topory: \t      "+q3+"\n"+
-						   " Ksiêgi grzybów:      "+q4+"\n"+
-						   " Szyszki: \t      "+q5);
+		setData();
 	}
 	
 	public static void setData()
 	{
-		statistics.setText("\n                    Statystyki\t\n\n\n"+
-				   " HP: "+HP+"/100\t\n\n"+
-				   " Ekwipunek: \t      "+q1+"\n\n"+
-				   " Eliksiry ¿ycia: \t      "+q2+"\n"+
-				   " Topory: \t      "+q3+"\n"+
-				   " Ksiêgi grzybów:      "+q4+"\n"+
-				   " Szyszki: \t      "+q5);
+		statistics.setText("\n                    Statistic\t\n\n\n"+
+				   " HP: " + HP + "/100\t\n\n"+
+				   " Equipment: \t      " + q1 + "\n\n"+
+				   " Elixir of life: \t      " + q2 +"\n"+
+				   " Axes: \t      " + q3 + "\n" +
+				   " Mushroom books : " + q4 + "\n"+
+				   " Cones: \t      " + q5);
 	}
 	
 	public static JTextArea statistics = new JTextArea();

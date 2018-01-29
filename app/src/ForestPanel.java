@@ -46,7 +46,7 @@ class ForestPanel extends JPanel
 	{
 		try
 		{
-			player = ImageIO.read(new File("images\\postac.png"));
+			player = ImageIO.read(new File("images\\hero.png"));
 			fields[i][j].setIcon(new ImageIcon(player));
 			objects[i][j] = "player";
 		}
@@ -78,7 +78,7 @@ class ForestPanel extends JPanel
 		int curHeight,curWidth;
 		try
 		{
-			tree = ImageIO.read(new File("images\\tree1.png"));
+			tree = ImageIO.read(new File("images\\tree.png"));
 		}
 		catch (IOException ex) 
 		{
@@ -107,13 +107,13 @@ class ForestPanel extends JPanel
 		try
 		{
 			greenImage = ImageIO.read(new File("images\\forest.png"));
-			boletus = ImageIO.read(new File("images\\grzyb4.png"));
-			toadstool = ImageIO.read(new File("images\\grzyb3.png"));
-			elixir = ImageIO.read(new File("images\\potion2.png"));
-			ax = ImageIO.read(new File("images\\topor.png"));
-			book = ImageIO.read(new File("images\\book2.png"));
+			boletus = ImageIO.read(new File("images\\boletus.png"));
+			toadstool = ImageIO.read(new File("images\\toadstool.png"));
+			elixir = ImageIO.read(new File("images\\potion.png"));
+			ax = ImageIO.read(new File("images\\axe.png"));
+			book = ImageIO.read(new File("images\\book.png"));
 			cone = ImageIO.read(new File("images\\cone.png"));
-			tree = ImageIO.read(new File("images\\tree1.png"));
+			tree = ImageIO.read(new File("images\\tree.png"));
 		}
 		catch (IOException ex) 
 		{

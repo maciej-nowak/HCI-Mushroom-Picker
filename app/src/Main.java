@@ -24,7 +24,7 @@ public class Main
 	public static void setNewGame(int height,int width)
 	{
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		mainFrame.setTitle("Inteligentny grzybiarz");
+		mainFrame.setTitle("Smart Mushroom Picker");
 		mainFrame.addForest();
 		mainFrame.addStatistics();
 		mainFrame.addDialog();

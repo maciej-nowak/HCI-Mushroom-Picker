@@ -83,7 +83,7 @@ public class MainFrame extends JFrame
 	private ForestPanel forestPanel;
 	private DialogPanel dialogPanel;
 	public static StatisticsPanel statistics; 
-	public static JButton newGameButton = new JButton("Nowa runda");
+	public static JButton newGameButton = new JButton("New round");
 	public static int height = 8;
 	public static int width = 10;
 	public static final int DEFAULT_WIDTH = 1000;

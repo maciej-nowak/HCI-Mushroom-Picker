@@ -802,5 +802,5 @@ class DialogPanel extends JPanel
 	private int h;
 	private int w;
 	public static JTextArea dialog = new JTextArea(8,1);
-	public static JButton insertButton = new JButton("Wstaw");
+	public static JButton insertButton = new JButton("Confirm text");
 }
